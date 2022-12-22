@@ -1,0 +1,23 @@
+Source: python-scripttest
+Section: python
+Priority: optional
+Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
+Standards-Version: 3.9.7
+Build-Depends: debhelper-compat (= 9),
+               dh-python,
+               python3-all (>= 3.1.2-6~),
+               python3-pytest,
+               python3-setuptools
+Homepage: http://pythonpaste.org/scripttest/
+Vcs-Git: https://salsa.debian.org/python-team/modules/python-scripttest.git
+Vcs-Browser: https://salsa.debian.org/python-team/modules/python-scripttest
+
+Package: python3-scripttest
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: Helper to test command-line scripts - python 3.x
+ ScriptTest is a library to help you test your interactive command-line
+ applications. With it you can easily run the command (in a subprocess) and
+ see the output (stdout, stderr) and any file modifications.
+ .
+ This package contains the Python 3.x module.
