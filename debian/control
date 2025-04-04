@@ -1,16 +1,17 @@
 Source: python-scripttest
 Section: python
 Priority: optional
-Maintainer: Debian Python Modules Team <python-modules-team@lists.alioth.debian.org>
-Standards-Version: 3.9.7
-Build-Depends: debhelper-compat (= 9),
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Uploaders: Malik Mlitat <mlitat88@gmail.com>
+Standards-Version: 4.6.2
+Build-Depends: debhelper-compat (= 12),
                dh-python,
-               python3-all (>= 3.1.2-6~),
+               python3-all,
                python3-pytest,
                python3-setuptools
 Homepage: http://pythonpaste.org/scripttest/
-Vcs-Git: https://salsa.debian.org/python-team/modules/python-scripttest.git
-Vcs-Browser: https://salsa.debian.org/python-team/modules/python-scripttest
+Vcs-Git: https://salsa.debian.org/python-team/packages/python-scripttest.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/python-scripttest
 
 Package: python3-scripttest
 Architecture: all
